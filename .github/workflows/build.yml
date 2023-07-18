@@ -34,4 +34,5 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/robertjndw/pre-commit-docker:latest
+          tags: ghcr.io/${{ github.repository }}:latest
+
